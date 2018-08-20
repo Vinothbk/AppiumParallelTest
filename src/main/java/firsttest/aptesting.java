@@ -36,7 +36,8 @@ public WebDriver driver;
 		capabilities.setCapability(CapabilityType.VERSION, "6.1");
 		capabilities.setCapability(CapabilityType.PLATFORM, "Mac");
 		capabilities.setCapability("app","/Users/username/Downloads/InternationalMountains   /build/Release-iphonesimulator/InternationalMountains.app");*/
-		//driver = new RemoteWebDriver(new URL("http://0.0.0.0:4723/wd/hub"), caps);
+		//driver = new RemoteWebDriver(new URL("http://0.0.0.0:4723/wd/hub"), caps); 
+		
 		driver = new IOSDriver<MobileElement>(url, caps);
 		}
 
