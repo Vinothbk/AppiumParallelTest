@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [IOSNativeSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="IOS native app test on iPhone 7(failed)">
+    <parameter name="deviceName" value="iPhone 7"/>
+    <parameter name="platform" value="11.4"/>
+    <parameter name="wdaLocalPort" value="8100"/>
+    <classes>
+      <class name="firsttest.aptesting">
+        <methods>
+          <include name="test"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- firsttest.aptesting -->
+    </classes>
+  </test> <!-- IOS native app test on iPhone 7(failed) -->
+</suite> <!-- Failed suite [IOSNativeSuite] -->

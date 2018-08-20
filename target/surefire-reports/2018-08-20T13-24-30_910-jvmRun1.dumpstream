@@ -1,0 +1,25 @@
+# Created at 2018-08-20T13:37:27.905
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+
+# Created at 2018-08-20T13:37:44.892
+Unexpected IOException: 8,1,firsttest.aptesting,setUp(firsttest.aptesting),null,org.apache.http.NoHttpResponseException: 0.0.0.0:4723 failed to respond\000ABuild info: version: '3.6.0'\002C revision: '6fbf3ec767'\002C time: '2017-09-27T15:28:36.4Z'\000ASystem info: host: 'Vinothqas-Mac-mini.local'\002C ip: '192.168.0.179'\002C os.name: 'Mac OS X'\002C os.arch: 'x86_64'\002C os.version: '10.13.6'\002C java.version: '10.0.1'\000ADriver info: driver.version: IOSDriver,null,org.apache.http.NoHttpResponseException: 0.0.0.0:4723 failed to respond\000ABuild info: version: '3.6.0'\002C revision: '6fbf3ec767'\002C time: '2017-09-27T15:28:36.4Z'\000ASystem info: host: 'Vinothqas-Mac-mini.local'\002C ip: '192.168.0.179'\002C os.name: 'Mac OS X'\002C os.arch: 'x86_64'\002C os.version: '10.13.6'\002C java.version: '10.0.1'\000ADriver info: driver.version: IOSDriver,aptesting.setUp:40 \00BB WebDriver org.apache.http.NoHttpResponseException: 0.0.0....,org.openqa.selenium.WebDriverException: \000Aorg.apache.http.NoHttpResponseException: 0.0.0.0:4723 failed to respond\000ABuild info: version: '3.6.0'\002C revision: '6fbf3ec767'\002C time: '2017-09-27T15:28:36.4Z'\000ASystem info: host: 'Vinothqas-Mac-mini.local'\002C ip: '192.168.0.179'\002C os.name: 'Mac OS X'\002C os.arch: 'x86_64'\002C os.version: '10.13.6'\002C java.version: '10.0.1'\000ADriver info: driver.version: IOSDriver\000A\0009at firsttest.aptesting.setUp(aptesting.java:40)\000ACaused by: org.apache.http.NoHttpResponseException: 0.0.0.0:4723 failed to respond\000A\0009at firsttest.aptesting.setUp(aptesting.java:40)\000A
+
+
+# Created at 2018-08-20T13:37:44.960
+Unexpected IOException: 8,1,firsttest.aptesting,setUp(firsttest.aptesting),null,org.apache.http.NoHttpResponseException: 0.0.0.0:4723 failed to respond\000ABuild info: version: '3.6.0'\002C revision: '6fbf3ec767'\002C time: '2017-09-27T15:28:36.4Z'\000ASystem info: host: 'Vinothqas-Mac-mini.local'\002C ip: '192.168.0.179'\002C os.name: 'Mac OS X'\002C os.arch: 'x86_64'\002C os.version: '10.13.6'\002C java.version: '10.0.1'\000ADriver info: driver.version: IOSDriver,null,org.apache.http.NoHttpResponseException: 0.0.0.0:4723 failed to respond\000ABuild info: version: '3.6.0'\002C revision: '6fbf3ec767'\002C time: '2017-09-27T15:28:36.4Z'\000ASystem info: host: 'Vinothqas-Mac-mini.local'\002C ip: '192.168.0.179'\002C os.name: 'Mac OS X'\002C os.arch: 'x86_64'\002C os.version: '10.13.6'\002C java.version: '10.0.1'\000ADriver info: driver.version: IOSDriver,aptesting.setUp:40 \00BB WebDriver org.apache.http.NoHttpResponseException: 0.0.0....,org.openqa.selenium.WebDriverException: \000Aorg.apache.http.NoHttpResponseException: 0.0.0.0:4723 failed to respond\000ABuild info: version: '3.6.0'\002C revision: '6fbf3ec767'\002C time: '2017-09-27T15:28:36.4Z'\000ASystem info: host: 'Vinothqas-Mac-mini.local'\002C ip: '192.168.0.179'\002C os.name: 'Mac OS X'\002C os.arch: 'x86_64'\002C os.version: '10.13.6'\002C java.version: '10.0.1'\000ADriver info: driver.version: IOSDriver\000A\0009at firsttest.aptesting.setUp(aptesting.java:40)\000ACaused by: org.apache.http.NoHttpResponseException: 0.0.0.0:4723 failed to respond\000A\0009at firsttest.aptesting.setUp(aptesting.java:40)\000A
+
+
+# Created at 2018-08-20T13:37:45.301
+Unexpected IOException: 9,1,firsttest.aptesting,test(firsttest.aptesting),null,org.apache.http.NoHttpResponseException: 0.0.0.0:4723 failed to respond\000ABuild info: version: '3.6.0'\002C revision: '6fbf3ec767'\002C time: '2017-09-27T15:28:36.4Z'\000ASystem info: host: 'Vinothqas-Mac-mini.local'\002C ip: '192.168.0.179'\002C os.name: 'Mac OS X'\002C os.arch: 'x86_64'\002C os.version: '10.13.6'\002C java.version: '10.0.1'\000ADriver info: driver.version: IOSDriver,null
+
+
+# Created at 2018-08-20T13:37:45.609
+Unexpected IOException: 9,1,firsttest.aptesting,test(firsttest.aptesting),null,org.apache.http.NoHttpResponseException: 0.0.0.0:4723 failed to respond\000ABuild info: version: '3.6.0'\002C revision: '6fbf3ec767'\002C time: '2017-09-27T15:28:36.4Z'\000ASystem info: host: 'Vinothqas-Mac-mini.local'\002C ip: '192.168.0.179'\002C os.name: 'Mac OS X'\002C os.arch: 'x86_64'\002C os.version: '10.13.6'\002C java.version: '10.0.1'\000ADriver info: driver.version: IOSDriver,null
+
+
